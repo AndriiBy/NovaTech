@@ -1,1 +1,114 @@
+/*Logo*/
+div.logo{
+	width:100%;
+	height: 70px;
+}
+img#logoImg{
+	margin: 0px 0px 0px 50px;
+	float: left;
+	width: 115px;
+	height: 115px;
+
+	border: 9px solid #142d4b;
+}
+h1#logoName{
+	margin: 9px 0px 0px 20px;
+	width: 30%;
+	float: left;
+
+	color: #142d4b;
+	font-size: 100px;
+}
+
+/*List of categories*/
+div.listOfCategories{
+	margin: 100px 0px 0px 0px;
+	width: 100%;
+}
+div.listOfCategories table{
+	border-collapse: collapse;
+	width: 100%;
+}
+div.listOfCategories th{
+	width: 33%;
+	border: 5px solid;
+	background-color: white;
+}
+div.listOfCategories a{
+	font: bold 30px Arial;
+	text-align: center;
+	text-decoration: none;
+	text-decoration-style: double;
+	color: black;
+}
+div.listOfCategories a:hover{
+	text-decoration: underline;
+}
+
+/*Main information and news*/
+div.mainInfo{
+	margin: 0px -3px 0px -4px;
+
+	background-color: white;
+	border: 1px solid lightgrey;
+}
+div.mainInfo h2{
+	text-align: center;
+	font: bold 30px Arial;
+}
+div.mainInfo img{
+	display: block;
+	margin: auto;
+	width: auto;
+	height: 500px;
+}
+div.mainInfo h3{
+	text-align: left;
+	font: 24px Arial;
+}
+
+/*Products*/
+div.products{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+div.products td{
+	margin-top: 5px;
+	border-top: 20px white solid;
+	background-color: whitesmoke;
+}
+div.products h1{
+	text-align: center;
+	font: bold 30px Arial;
+}
+div.products img{
+	display: flex;
+	margin-left: 20px;
+	margin-right: 25px;
+	margin-bottom: 10px;
+	float: left;
+	width: 250px;
+	height: 250px;
+}
+div.products h2{
+	text-align: left;
+	margin-left: 10px;
+	font: 24px Arial;
+}
+
+/*Contact Information*/
+div.contactInfo {
+	margin: 0px -8px -20px -20px;
+	height: 200px;
+	background-color: #040231;
+}
+div.contactInfo h2{
+	margin-left: 20px;
+	color: white;
+}
+div.contactInfo h3 {
+	margin: 10px 20px 0px 50px;
+	color: white;
+}
 
